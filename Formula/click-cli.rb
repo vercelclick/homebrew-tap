@@ -1,25 +1,25 @@
 class ClickCli < Formula
   desc "Click uses passkeys to encrypt and decrypt secrets on your device offering a Just In Time secret injection model. Encrypted secrets are stored in your codebase or on a our hosted vault service."
   homepage "https://vercel.click"
-  version "0.2.7"
+  version "0.2.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "2be6ccf1104a8fc679043a4757de0c387e48057bb6579dd7ab97e3d52c3d8b42"
+      url "https://github.com/vercelclick/cli/releases/download/0.2.8/click-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "896b073793a9c5f13397694ae424dab37ea05820a3fddf6ea84585db0e61f04f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "78619512c67aa69d2d419652c08d164f1946e64a50ce21473a6a2f94e69835f7"
+      url "https://github.com/vercelclick/cli/releases/download/0.2.8/click-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "2605a27aefb3513187b1935ca74f89dc7b8b7327a4b65cbd01ec590f5f79ed82"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5179fa42a3c5902fe8b4e6c987bb49a0c04259ed2114661887cc11a6071cd279"
+      url "https://github.com/vercelclick/cli/releases/download/0.2.8/click-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d9acf45c4d39afb6c1f1636d5d5e6116ed42f75a172d2a0a240b1df5e17ba189"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a750e38eb17be39cbe88b526a2a8ae2f24a231aec9891adbb288cf63a40efe49"
+      url "https://github.com/vercelclick/cli/releases/download/0.2.8/click-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a77058af8a7d457a8644edccbb697fa10c13799d1331655d7b64eb91bbb99a8f"
     end
   end
 

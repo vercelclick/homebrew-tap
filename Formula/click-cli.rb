@@ -5,21 +5,21 @@ class ClickCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "e54c662bfaa279f0888a96a3d20f09328248cf0994686b5c0100f92efb2b2b9c"
+      sha256 "2be6ccf1104a8fc679043a4757de0c387e48057bb6579dd7ab97e3d52c3d8b42"
     end
     if Hardware::CPU.intel?
       url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "455da23b599e7785650277ebf5466cbb835a05d41f6a7ff4858187a3b392f0a8"
+      sha256 "78619512c67aa69d2d419652c08d164f1946e64a50ce21473a6a2f94e69835f7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1828c6dadc065b5ef273ce4045c90ba7acf1612ef5871056202a31ac868d1067"
+      sha256 "5179fa42a3c5902fe8b4e6c987bb49a0c04259ed2114661887cc11a6071cd279"
     end
     if Hardware::CPU.intel?
       url "https://github.com/vercelclick/cli/releases/download/0.2.7/click-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7407af3a106efd642990b3427a17db3d456eeb28b9821da4144667865f0b6966"
+      sha256 "a750e38eb17be39cbe88b526a2a8ae2f24a231aec9891adbb288cf63a40efe49"
     end
   end
 
